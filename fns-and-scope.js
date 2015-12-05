@@ -5,7 +5,7 @@ var name = 'Tyler';
 //Create a function called isTyler that accepts name as it's only parameter.
 //If the argument you passed in is equal to 'Tyler', return true. If it's not, return false.
 
-function isTyler (argument1) {
+function isTyler(argument1) {
   if (argument1 === 'Tyler') {
     return true;
   } else {
@@ -19,7 +19,7 @@ function isTyler (argument1) {
 
 //Create a function called getName that uses prompt() to prompt the user for their name, then returns the name.
 
-function getName () {
+function getName() {
   prompt('what is your name?')
   return prompt();
 }
@@ -45,7 +45,7 @@ function welcome() {
 
 //What is the difference between arguments and parameters?
 
-  //Arguments are values for parameters and they change, parameters are variables for the arguments, and they don't change.
+//Arguments are values for parameters and they change, parameters are variables for the arguments, and they don't change.
 
 
 //Next problem
@@ -55,8 +55,8 @@ function welcome() {
 //What are all the falsy values in JavaScript and how do you check if something is falsy?
 
 
-  // Falsy values = (null, 0, "", undefined, NaN, and false)
-  //Block of code will only run if a value is truthy. So if your block does not run, then your value is falsy.
+// Falsy values = (null, 0, "", undefined, NaN, and false)
+//Block of code will only run if a value is truthy. So if your block does not run, then your value is falsy.
 
 
 
@@ -67,7 +67,7 @@ function welcome() {
 
 //Create a function called myName that returns your name
 
-function myName () {
+function myName() {
   var name = "Geordyn";
   return name;
 }

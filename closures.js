@@ -167,7 +167,7 @@ var funcArray = [function() {
     return 2;
   }, function() {
     return 3;
-  }, function(){
+  }, function() {
     return 4;
   },
   function() {
